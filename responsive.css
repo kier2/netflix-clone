@@ -1,0 +1,163 @@
+@media(max-width:1024px){
+    .intro {
+        height: 50vh;
+    }
+    .download-inner .video-img {
+        transform: translateX(-3rem);
+    }
+}
+@media(max-width:960px){
+    .intro{
+        height: 70vh;
+    }
+    .intro-inner-content {
+        width: 60%;
+        margin-bottom: 4rem;
+    }
+    .cta-title {
+        font-size: 1.1rem;
+        padding: 0 6rem;
+    }
+
+    .form-group {
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .faq .cta-bottom .input-box,
+    .form-group .input-box {
+        font-size: 1rem;
+        width: 60%;
+        height: 3rem;
+    }
+
+    .cta-btn {
+        font-size: 1rem;
+        height: unset;
+        padding: .8rem 2rem;
+    }
+    .row-col-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .row-col-2 .col-2 {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .row-col-2 .col-2 p {
+        margin-bottom: 0;
+    }
+
+    /* Devices */
+    .devices .video-img {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: -1rem;
+    }
+
+    .devices-inner .col-2 .video-img video {
+        top: 46%;
+        width: 66.7%;
+    }
+
+    .download-inner .col-2:first-child,
+    .kids-inner .col-2:first-child {
+        order: 2;
+    }
+
+    .download-inner .col-2:last-child,
+    .kids-inner .col-2:last-child {
+        order: 1;
+    }
+    .download-inner .video-img {
+        transform: translateX(0);
+    }
+
+    /* Showcase */
+    .showcase-inner .col-1 {
+        width: 100%;
+        padding: 0 2rem;
+        text-align: center;
+    }
+    .faq-inner-content {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .cta-title,
+    .cta-bottom  p{
+        font-size: 1.4rem;
+    }
+}
+@media(max-width:767px){
+    /* Utilities */
+    .hide-on-mobile{
+        display: none;
+    }
+    .container {
+        width: 99.5% !important;
+    }
+    .form-group .input-box {
+        width: 90%;
+    }
+    h1,
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3,
+    h4,
+    p {
+        font-size: 1.2rem;
+    }
+
+    h5,
+    h6 {
+        font-size: 1rem;
+    }
+
+    /* Utilities */
+    .btn {
+        padding: .4rem .8rem;
+        font-size: .9rem;
+    }
+
+    .container {
+        padding: 3rem 0 !important;
+    }
+
+    /* Intro */
+    .intro-inner {
+        margin-top: 4rem !important;
+    }
+
+    .intro-inner-content {
+        width: 100%;
+        padding: 0 2rem;
+    }
+    .navbar svg {
+        height: 1.8rem;
+    }
+    
+    /* Kids */
+    .faq-inner-content {
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .faq .cta-bottom .input-box {
+        width: 90%;
+    }
+    /* Footer */
+    .main-footer .footer-menus {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem 1.2rem;
+    }
+    .footer-menus-item:last-child{
+        display: none;
+    }
+    .main-footer .container{
+        padding-bottom: .8rem!important;
+    }
+}
